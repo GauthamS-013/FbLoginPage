@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #a9b6d1, white);
+}
+
+.header{
+    background-color: #3b5998;
+    height: 80px;
+    position: relative;
+}
+
+.logo{
+    color: white;
+    display: inline;
+	font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+
+.logForm{
+    position: absolute;
+    right: 250px;
+    bottom: 10px;
+}
+
+.logInp{
+    border: 1px solid black;
+    height: 20px;
+    width: 150px;
+}
+
+#l1,#l2{
+    position: absolute;
+    top: -15px;
+    color: white;
+    font-size: 12px;
+}
+
+.forgot{
+    position: relative;
+    font-size: 12px;
+    color: #c3c3c3c3;
+    left: 156px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.forgot:hover{
+    color: gainsboro;
+}
+
+.logButton{
+    background-color: #627eba;
+    border: 1px solid #2e4068;
+    color: white;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.logButton:hover{
+    background-color: #3b5998;
+}
+
+.left-section{
+    width: 500px;
+}
+
+.left-section>p{
+    font-size: 20px;
+    font-weight: 550;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+
+.map-image>img{
+    height: 230px;
+    width: 630px;
+    position: relative;
+    top: 55px;
+    left: 250px;
+}
+
+.right-section{
+    float: right;
+    width: 450px;
+}
+
+#heading1{
+    position: absolute;
+    right: 530px;
+    top: 110px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#subheading{
+    position: absolute;
+    top: 165px;
+    right: 640px;
+    font-size: 18px;
+}
+
+.regForm{
+    position: relative;
+    top: -160px;
+    right: 337px;
+}
+
+.regName{
+    width: 150px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+}
+
+.regLongInp{
+    width: 318px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+}
+
+#pswd{
+    margin-bottom: 20px;
+}
+
+#bdayLabel{
+    font-weight: 500;
+}
+
+.bday{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60px;
+    padding: 2px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+}
+
+#month{
+    width: 75px;
+}
+
+.qm{
+    height: 17px;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+#genderLabel{
+    font-weight: 500;
+}
+
+.gender{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#g2,#g3{
+    margin-left: 10px;
+}
+
+#button{
+    margin-top: 30px;
+    background-color: #419231;
+    border: 1px solid #2d7120;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    padding: 6px 50px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #46ab32;
+}
